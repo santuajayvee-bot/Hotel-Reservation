@@ -1,0 +1,14 @@
+/.vscode/
+/.idea/
+*.log
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store
+
+# Local environment files
+.env
+
+# Local database exports/backups
+*.sql.gz
+*_backup.sql
