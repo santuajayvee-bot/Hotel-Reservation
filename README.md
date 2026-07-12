@@ -22,6 +22,18 @@ A PHP and MySQL hotel reservation system built for a school project and polished
 - Bootstrap Icons
 - HTML / CSS
 
+## Static Portfolio Showcase
+
+This repository also includes a GitHub Pages-ready static showcase in the `docs/` folder.
+
+To publish it:
+
+1. Open the repository on GitHub.
+2. Go to `Settings` > `Pages`.
+3. Under `Build and deployment`, choose `Deploy from a branch`.
+4. Select branch `main` and folder `/docs`.
+5. Save and wait for GitHub Pages to generate the live URL.
+
 ## Local Setup
 
 1. Copy the project folder into your XAMPP `htdocs` directory.
