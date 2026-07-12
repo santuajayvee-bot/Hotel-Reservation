@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Available Rooms | Mariposa Inn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="site-nav">
+    <a href="index.html" class="nav-brand"><span class="brand-mark">MI</span><span><span class="logo">Mariposa Inn</span><span class="brand-subtitle">Guest Reservation</span></span></a>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+        <li><a href="available_rooms.html" class="nav-link active">Available Rooms</a></li>
+        <li><a href="my_reservations.html" class="nav-link">My Reservations</a></li>
+      </ul>
+      <div class="nav-actions"><a href="available_rooms.html" class="booking-link">Book Now</a><a href="#" class="logout-link">Logout</a></div>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <div class="eyebrow">Rooms Ready For Booking</div>
+      <h1>Choose a stay that feels easy from the first click.</h1>
+      <p>Browse available rooms by category, compare rates, and reserve the option that fits your trip.</p>
+      <div class="hero-stats">
+        <div class="stat-tile"><span>Available Rooms</span><strong>15</strong></div>
+        <div class="stat-tile"><span>Room Categories</span><strong>3</strong></div>
+        <div class="stat-tile"><span>Rates From</span><strong>PHP 3,500</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <main class="catalog">
+    <div class="category-nav">
+      <a href="#deluxe" class="category-chip">Deluxe Rooms</a>
+      <a href="#suite" class="category-chip">Suite Rooms</a>
+      <a href="#family" class="category-chip">Family Rooms</a>
+    </div>
+
+    <section class="room-section" id="deluxe">
+      <div class="section-heading"><div><h2>Deluxe Rooms</h2><p>Elegant rooms for focused stays, quick escapes, and weekend comfort.</p></div><span class="room-count">5 available</span></div>
+      <div class="rooms-grid">
+        <article class="room-card"><div class="room-media"><img src="assets/deluxe.jpg" alt="Deluxe room"><span class="badge-available">Available</span></div><div class="room-body"><div class="room-title-row"><h3>Deluxe Room</h3><span class="room-number">D101</span></div><p class="room-copy">A polished private room with warm finishes, practical amenities, and a calm atmosphere.</p><ul class="amenity-list"><li>Queen bed</li><li>City view</li><li>Work desk</li></ul><div class="room-footer"><div><span class="price-label">Per night</span><strong class="price">PHP 3,500.00</strong></div><a href="reserve.html" class="reserve-btn">Reserve</a></div></div></article>
+        <article class="room-card"><div class="room-media"><img src="assets/labas.jpg" alt="Deluxe room"><span class="badge-available">Available</span></div><div class="room-body"><div class="room-title-row"><h3>Deluxe Room</h3><span class="room-number">D102</span></div><p class="room-copy">A comfortable stay option with refined styling and guest-ready essentials.</p><ul class="amenity-list"><li>Queen bed</li><li>City view</li><li>Work desk</li></ul><div class="room-footer"><div><span class="price-label">Per night</span><strong class="price">PHP 3,500.00</strong></div><a href="reserve.html" class="reserve-btn">Reserve</a></div></div></article>
+        <article class="room-card"><div class="room-media"><img src="assets/home.jpg" alt="Deluxe room"><span class="badge-available">Available</span></div><div class="room-body"><div class="room-title-row"><h3>Deluxe Room</h3><span class="room-number">D103</span></div><p class="room-copy">A warm and practical private room built for a smoother stay experience.</p><ul class="amenity-list"><li>Queen bed</li><li>City view</li><li>Work desk</li></ul><div class="room-footer"><div><span class="price-label">Per night</span><strong class="price">PHP 3,800.00</strong></div><a href="reserve.html" class="reserve-btn">Reserve</a></div></div></article>
+      </div>
+    </section>
+
+    <section class="room-section" id="suite">
+      <div class="section-heading"><div><h2>Suite Rooms</h2><p>Spacious suites with refined details for longer and more relaxed stays.</p></div><span class="room-count">5 available</span></div>
+      <div class="rooms-grid">
+        <article class="room-card"><div class="room-media"><img src="assets/suite.jpg" alt="Suite room"><span class="badge-available">Available</span></div><div class="room-body"><div class="room-title-row"><h3>Suite Room</h3><span class="room-number">S201</span></div><p class="room-copy">A premium room with extra space, elevated styling, and a refined stay experience.</p><ul class="amenity-list"><li>Lounge area</li><li>Premium bath</li><li>Panoramic view</li></ul><div class="room-footer"><div><span class="price-label">Per night</span><strong class="price">PHP 5,500.00</strong></div><a href="reserve.html" class="reserve-btn">Reserve</a></div></div></article>
+      </div>
+    </section>
+
+    <section class="room-section" id="family">
+      <div class="section-heading"><div><h2>Family Rooms</h2><p>Larger rooms designed for shared stays without giving up comfort.</p></div><span class="room-count">5 available</span></div>
+      <div class="rooms-grid">
+        <article class="room-card"><div class="room-media"><img src="assets/family.jpg" alt="Family room"><span class="badge-available">Available</span></div><div class="room-body"><div class="room-title-row"><h3>Family Room</h3><span class="room-number">F301</span></div><p class="room-copy">A comfortable shared room with practical space for groups and families.</p><ul class="amenity-list"><li>Multiple beds</li><li>Extra storage</li><li>Family space</li></ul><div class="room-footer"><div><span class="price-label">Per night</span><strong class="price">PHP 4,500.00</strong></div><a href="reserve.html" class="reserve-btn">Reserve</a></div></div></article>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">© 2026 Mariposa Inn. Guest reservation portfolio system.</footer>
+</body>
+</html>

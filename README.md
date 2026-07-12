@@ -22,9 +22,9 @@ A PHP and MySQL hotel reservation system built for a school project and polished
 - Bootstrap Icons
 - HTML / CSS
 
-## Static Portfolio Showcase
+## GitHub Pages Static Version
 
-This repository also includes a GitHub Pages-ready static showcase in the `docs/` folder.
+This repository also includes a GitHub Pages-ready static version in the `docs/` folder. It mirrors the guest-facing pages for portfolio viewing while the full PHP/MySQL system stays in the root project files.
 
 To publish it:
 

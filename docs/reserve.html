@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserve Deluxe Room | Mariposa Inn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="site-nav">
+    <a href="index.html" class="nav-brand"><span class="brand-mark">MI</span><span><span class="logo">Mariposa Inn</span><span class="brand-subtitle">Guest Reservation</span></span></a>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="facilities.html" class="nav-link">Facilities</a></li>
+        <li><a href="available_rooms.html" class="nav-link active">Available Rooms</a></li>
+        <li><a href="my_reservations.html" class="nav-link">My Reservations</a></li>
+      </ul>
+      <div class="nav-actions"><a href="available_rooms.html" class="booking-link">Book Now</a><a href="#" class="logout-link">Logout</a></div>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="booking-layout">
+      <article class="room-preview">
+        <div class="room-image"><img src="assets/deluxe.jpg" alt="Deluxe room"><span class="room-badge">Available</span></div>
+        <div class="room-info"><div class="eyebrow">Room Selection</div><h1>Deluxe Room D102</h1><p class="room-copy">Confirm your stay dates for this room. Once submitted, the room will be marked as reserved and your booking will appear in your reservations dashboard.</p><div class="detail-grid three"><div class="detail-box"><span>Room Type</span><strong>Deluxe</strong></div><div class="detail-box"><span>Room No.</span><strong>D102</strong></div><div class="detail-box"><span>Rate</span><strong>PHP 3,500.00</strong></div></div></div>
+      </article>
+      <aside class="booking-panel">
+        <div class="eyebrow">Booking Details</div>
+        <h2>Choose your stay dates</h2>
+        <p>Select a check-in and check-out date to complete your reservation.</p>
+        <form>
+          <label class="form-label" for="check_in">Check-in date</label>
+          <input class="form-control" type="date" id="check_in">
+          <br>
+          <label class="form-label" for="check_out">Check-out date</label>
+          <input class="form-control" type="date" id="check_out">
+          <p class="form-text">Check-out should be at least one day after check-in.</p>
+          <a href="my_reservations.html" class="submit-btn">Confirm Reservation</a>
+          <br><br>
+          <a href="available_rooms.html" class="secondary-btn">Back to Rooms</a>
+        </form>
+        <div class="policy-note"><strong>Cancellation note:</strong> penalties may apply depending on how close the cancellation date is to your check-in date.</div>
+      </aside>
+    </section>
+  </main>
+  <footer class="footer">© 2026 Mariposa Inn. Guest reservation portfolio system.</footer>
+</body>
+</html>
